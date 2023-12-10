@@ -1,6 +1,6 @@
 **Nutritional Information Retrieval Application**
 
-**Task Description**
+**Task Description.**
 NutriInfo is a Python application that provides users with detailed nutritional information for various food items. Leveraging the Edamam Food and Grocery Database API, NutriInfo seamlessly fetches and displays essential nutritional data, offering a valuable resource for those conscious of their dietary choices.
 
 **Implementation**
