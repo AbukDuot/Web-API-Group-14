@@ -23,3 +23,8 @@ Clone Repository: Clone the repository to your local machine.
 Install Dependencies: Run pip install -r requirements.txt to install necessary dependencies.
 Run the Application: Execute the script using python nutriinfo.py.
 Input and Explore: Follow the on-screen instructions to input a food item and explore its nutritional information.
+
+## **Feedback and Contributions**
+Your feedback and contributions to improve these Nutritional Information Retrieval Application (Web-API) are highly encouraged. Please feel free to submit issues, feature requests, or pull requests as needed.
+
+Happy Web-API!
