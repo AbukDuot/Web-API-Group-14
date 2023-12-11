@@ -52,8 +52,16 @@ def display_food_info(food_data):
     print(f"  - Fat: {nutrients.get('FAT', 'N/A')} g")
     print(f"  - Carbohydrates: {nutrients.get('CHOCDF', 'N/A')} g")
 
-if __name__ == "__main__":
-    food_name = input("Enter a food name to get nutritional information: ")
-    food_data = get_food_data(food_name)
+def main():
+    while True:
+        food_name = input("Enter a food name to get nutritional information (or 'exit' to quit): ")
+        
+        if food_name.lower() == 'exit':
+            print("Thank you for using the app.")
+            break
+        
+        food_data = get_food_data(food_name)
+        display_food_info(food_data)
 
-    display_food_info(food_data)
+if __name__ == "__main__":
+    main()
