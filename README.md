@@ -34,4 +34,4 @@ Your feedback and contributions to improve these Nutritional Information Retriev
 - [Geu Aguto Garang Bior](https://github.com/Geu-Pro2023) - g.bior@alustudent.com
 - [Abuk Mayen Duot](https://github.com/AbukDuot) - a.duot@alustudent.com
 - [Jallah Sumbo ](https://github.com/jsumbo) - j.sumbo@alustudent.com
-
+- [Latjor Wuon Lat ](https://github.com/Latjor-Wuon) - l.dak@alustudent.com
