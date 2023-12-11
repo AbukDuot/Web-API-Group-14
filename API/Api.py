@@ -19,9 +19,20 @@ def get_food_data(food_name):
         response = requests.get(url, headers=headers, params=query_params)
         response.raise_for_status()  # Raise an exception for HTTP errors
 
-        return response.json()
-    except requests. exceptions.RequestException as e:
-        print(f"Error during API request: {e}")
+        data = response.json()
+
+        if not data.get('hints'):
+            print("No nutritional information found for this food.")
+            return None
+
+        return data
+
+    except requests.exceptions.HTTPError as http_err:
+        print(f"HTTP error occurred: {http_err}")
+    except requests.exceptions.RequestException as req_err:
+        print(f"Request exception occurred: {req_err}")
+    except Exception as err:
+        print(f"An unexpected error occurred: {err}")
         return None
 
 def display_food_info(food_data):
