@@ -27,4 +27,11 @@ Input and Explore: Follow the on-screen instructions to input a food item and ex
 ## **Feedback and Contributions**
 Your feedback and contributions to improve these Nutritional Information Retrieval Application (Web-API) are highly encouraged. Please feel free to submit issues, feature requests, or pull requests as needed.
 
-Happy Web-API!
+# Project Name
+
+## Collaborators 
+
+- [Geu Aguto Garang Bior](https://github.com/Geu-Pro2023) - g.bior@alustudent.com
+- [Abuk Mayen Duot](https://github.com/AbukDuot) - a.duot@alustudent.com
+- [Jallah Sumbo ](https://github.com/jsumbo) - j.sumbo@alustudent.com
+
